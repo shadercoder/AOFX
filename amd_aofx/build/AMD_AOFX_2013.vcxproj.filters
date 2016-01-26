@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{1F80880B-8B89-887C-1405-9F7C800D947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shaders">
+      <UniqueIdentifier>{06ADC7FB-7262-40F1-FB56-3AC8670B37F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shaders\AOFX_SeparableFilter">
+      <UniqueIdentifier>{F7E9AE32-E33A-9A74-0C9F-8836F84E2DDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Shaders\AMD_AOFX.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\AMD_AOFX_Common.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\AMD_AOFX_Deinterleave.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\AMD_AOFX_Kernel.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\AMD_Deinterleave.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\AMD_Utility.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\AOFX_SeparableFilter\FilterCommon.hlsl">
+      <Filter>src\Shaders\AOFX_SeparableFilter</Filter>
+    </None>
+    <None Include="..\src\Shaders\AOFX_SeparableFilter\FilterKernel.hlsl">
+      <Filter>src\Shaders\AOFX_SeparableFilter</Filter>
+    </None>
+    <None Include="..\src\Shaders\AOFX_SeparableFilter\HorizontalFilter.hlsl">
+      <Filter>src\Shaders\AOFX_SeparableFilter</Filter>
+    </None>
+    <None Include="..\src\Shaders\AOFX_SeparableFilter\VerticalFilter.hlsl">
+      <Filter>src\Shaders\AOFX_SeparableFilter</Filter>
+    </None>
+    <None Include="..\src\Shaders\BilateralFilter.hlsl">
+      <Filter>src\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\AMD_AOFX.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AMD_AOFX_OPAQUE.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AMD_AOFX_Precompiled.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AMD_AOFX.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AMD_AOFX_DEBUG.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AMD_AOFX_OPAQUE.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
